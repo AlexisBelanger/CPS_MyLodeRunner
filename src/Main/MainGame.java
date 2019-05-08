@@ -45,8 +45,12 @@ public class MainGame {
 			try
 			  {
 				
+				//Eclipse version: Neon
+				File f = new File("../CPS_MyLodeRunner/ressources/level"+level+".txt");
 				
-				File f = new File("CPS_MyLodeRunner-master/ressources/level"+level+".txt");
+				//Eclipse version: Oxygen
+				//File f = new File("CPS_MyLodeRunner/ressources/level"+level+".txt");
+				
 			    BufferedReader reader = new BufferedReader(new FileReader(f));
 			    
 			   
